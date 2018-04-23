@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+
+    <CheckBox
+        android:id="@+id/chkSelection"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/processid"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@+id/label"
+        android:textSize="20dp" android:padding="2dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/processname"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@+id/label"
+        android:textSize="20dp"  android:padding="5dp">
+    </TextView>
+
+</LinearLayout>
